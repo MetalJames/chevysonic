@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
     return (
-        <div>Chevrolet Sonic 2018 LT Hatchback</div>
+        <>
+            <Navbar />
+        </>
     )
 }
 
