@@ -53,14 +53,14 @@
     color: #fff;
 }
 
-.chevysonic-heading p {
+/* .chevysonic-heading p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
-}
+} */
 
 .chevysonic-container {
     display: flex;
@@ -68,6 +68,10 @@
     flex-direction: row;
     margin-top: 2rem;
 }
+
+/* .chevysonic-container img {
+    width: 100%;
+} */
 
 /* Customizing feature component as per needs */
 .chevysonic-container .chevysonic__features-container__feature, 

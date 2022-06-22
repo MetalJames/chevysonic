@@ -1,0 +1,58 @@
+.chevysonic__dimentions-container__feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.chevysonic__dimentions-container__feature {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 180px; */
+    width: 100%;
+    /* margin-right: 2rem; */
+}
+
+.chevysonic__dimentions-container__feature-title {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 180px; */
+    width: 100%;
+    /* margin-right: 2rem; */
+}
+
+.chevysonic__dimentions-container__feature h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.chevysonic__dimentions-container__feature-title div {
+    width: 38px;
+    height: 3px;
+    /* background: var(--gradient-bar); */
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 550px) {
+    .chevysonic__dimentions-container__feature-title h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .chevysonic__dimentions-container__feature {
+        margin: 1rem 0;
+    }
+}
