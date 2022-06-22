@@ -34,11 +34,6 @@
     margin: 0;
 }
 
-/* Customizing feature component as per needs */
-.chevysonic__whatgpt3-feature .chevysonic__features-container_feature-text {
-    max-width: 700px;
-}
-
 .chevysonic-heading {
     display: flex;
     flex-direction: row;
@@ -75,7 +70,9 @@
 }
 
 /* Customizing feature component as per needs */
-.chevysonic-container .chevysonic__features-container__feature {
+.chevysonic-container .chevysonic__features-container__feature, 
+.chevysonic-container .chevysonic__engine-container__feature,
+.chevysonic-container .chevysonic__specs-container__feature {
     /* flex: 1; */
     margin: 1rem;
     /* min-width: 210px; */
@@ -85,7 +82,9 @@
 }
 
 /* Customizing feature component as per needs */
-.chevysonic-container .chevysonic__features-container_feature-text {
+.chevysonic-container .chevysonic__features-container_feature-text,
+.chevysonic-container .chevysonic__engine-container_feature-text,
+.chevysonic-container .chevysonic__specs-container_feature-text {
     margin-top: 0.5rem;
 }
 
