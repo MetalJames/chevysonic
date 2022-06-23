@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './chevy_sonic.css';
 import Feature from '../../components/new_feature/Feature';
 import Engine from '../../components/engine/Engine';
@@ -7,9 +7,14 @@ import Dimentions from '../../components/dimentions/Dimentions';
 import new_feature_img from '../../assets/new_feature_img.jpg';
 import engine from '../../assets/engine.jpeg';
 import featureimage from '../../assets/featureimage.jpg';
-// import specs from '../../assets/specs.jpeg';
+import ImageCollage from '../../components/gallery/ImageCollage';
+import testImage from '../../assets/gallery/lightbox6.jpg';
+import BasicModalImg from '../../components/gallery/BasicModalImg';
 
 const ChevySonic = () => {
+
+    const [selectedImg, setSelectedImg] = useState(null);
+
     return (
         <div className='chevysonic section__margin' id='home'>
         <img className='featureImage' src={featureimage} alt="sonic 2018lt" />
@@ -21,6 +26,14 @@ const ChevySonic = () => {
                 <Engine title='ENGINE AND PERFORMANCES' text='The Ecotec engine family is great - the best combination of economy, power, refinement, and reliability. 1.4L “Ecotec” turbo engine is a fuel-efficient engine with 138 horsepower and 6300 rpm. Thanks to that it makes this car low on gas with City - 9.3 L/100 km and Hwy – 7.0 L/100 km what makes 8.0 L/100 km for daily use.' img={engine} />
                 <Specs />
                 <Dimentions />
+                <div className='chevysonic__gallery_h1'><div />&nbsp;&nbsp;&nbsp;
+                    <h1>GALLERY</h1>&nbsp;&nbsp;&nbsp;<div />
+                </div>
+                <div className='chevysonic-container-gallery'>
+                    <img src={testImage} alt="test sonic" height={325}/>
+                    <ImageCollage setSelectedImg={setSelectedImg}/>
+                </div>
+                { selectedImg &&  <BasicModalImg selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}
                 
             </div>
         </div>
