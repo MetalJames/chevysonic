@@ -80,7 +80,7 @@ const itemData = [
     {
         img: "http://chevysonic.volodymyrdc.ca/images/lightbox9.jpg",
         title: "Fern",
-        rows: 2,
-        cols: 2,
+        rows: 1,
+        cols: 4,
     },
 ];
