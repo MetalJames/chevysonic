@@ -10,6 +10,7 @@ import featureimage from '../../assets/featureimage.jpg';
 import ImageCollage from '../../components/gallery/ImageCollage';
 import testImage from '../../assets/gallery/lightbox6.jpg';
 import BasicModalImg from '../../components/gallery/BasicModalImg';
+import YoutubeEmbed from '../../components/video/YoutubeEmbed';
 
 const ChevySonic = () => {
 
@@ -34,7 +35,7 @@ const ChevySonic = () => {
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>
                 { selectedImg &&  <BasicModalImg selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}
-                
+                <YoutubeEmbed embedId="IlVHUKYBwRI" />
             </div>
         </div>
     )

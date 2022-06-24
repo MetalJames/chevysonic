@@ -1,0 +1,45 @@
+.chevy__sonic__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+    padding: 2rem;
+    width: 100%;
+        /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C007B', endColorstr='#001C7B', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+}
+
+.chevy__sonic__footer-copyright {
+    /* margin-top: 2rem; */
+    text-align: center;
+    width: 100%;
+}
+
+.chevy__sonic__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .chevy__sonic__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
