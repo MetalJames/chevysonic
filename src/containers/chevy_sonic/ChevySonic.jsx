@@ -8,7 +8,7 @@ import new_feature_img from '../../assets/new_feature_img.jpg';
 import engine from '../../assets/engine.jpeg';
 import featureimage from '../../assets/featureimage.jpg';
 import ImageCollage from '../../components/gallery/ImageCollage';
-import testImage from '../../assets/gallery/lightbox6.jpg';
+import testImage from '../../assets/facing_gallery_sonic.png';
 import BasicModalImg from '../../components/gallery/BasicModalImg';
 import YoutubeEmbed from '../../components/video/YoutubeEmbed';
 
@@ -31,7 +31,7 @@ const ChevySonic = () => {
                     <h1>GALLERY</h1>&nbsp;&nbsp;&nbsp;<div />
                 </div>
                 <div className='chevysonic-container-gallery'>
-                    <img src={testImage} alt="test sonic" height={325}/>
+                    <img src={testImage} alt="test sonic" width='60%' height='auto'/>
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>
                 { selectedImg &&  <BasicModalImg selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './containers/navbar/Navbar';
 import ChevySonic from './containers/chevy_sonic/ChevySonic';
 import Footer from './containers/footer/Footer';
 

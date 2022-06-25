@@ -75,6 +75,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: -4rem;
 }
 
 .chevysonic__gallery_h1 {
