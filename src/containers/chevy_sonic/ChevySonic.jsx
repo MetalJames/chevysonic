@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Box } from '@mui/material';
 import './chevy_sonic.css';
 import Feature from '../../components/new_feature/Feature';
 import Engine from '../../components/engine/Engine';
@@ -31,7 +32,10 @@ const ChevySonic = () => {
                     <h1>GALLERY</h1>&nbsp;&nbsp;&nbsp;<div />
                 </div>
                 <div className='chevysonic-container-gallery' id='gallery'>
-                    <img src={testImage} alt="test sonic" width='60%' height='auto'/>
+                <Box component='img' sx={{width: {xl: '60%', lg: '59%', md: '93%', sm: '100%', xs: '100%'}, height: 'auto'}} 
+                    src={testImage} alt="test sonic"
+                />
+                    {/* <img src={testImage} alt="test sonic" width='60%' height='auto'/> */}
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>
                 { selectedImg &&  <BasicModalImg selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}

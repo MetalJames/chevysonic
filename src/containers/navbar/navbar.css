@@ -5,7 +5,7 @@
     padding: 2rem 6rem;
     z-index: 20;
     /* overflow: hidden; */
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     width: 100%;
         /* ff 3.6+ */

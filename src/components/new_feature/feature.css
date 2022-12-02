@@ -59,6 +59,25 @@
     color: #fff;
 }
 
+@media screen and (max-width: 1050px) {
+    .chevysonic__features-container_feature-text img {
+        width: 350px;
+        margin: 0.5rem;
+    }
+
+    .chevysonic__features-container_feature-text p {
+        width: 350px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .chevysonic__features-container_feature-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .chevysonic__features-container__feature-title h1 {
         font-size: 14px;

@@ -61,6 +61,22 @@
     margin-left: 2rem;
 }
 
+@media screen and (max-width: 1050px) {
+    .chevysonic__specs-container_feature-text li {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .chevysonic__specs-container_feature-text li {
+        width: 250px;
+    }
+    .chevysonic__specs-container_feature-text li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .chevysonic__specs-container__feature-title h1 {
         font-size: 14px;

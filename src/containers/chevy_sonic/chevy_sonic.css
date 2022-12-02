@@ -1,10 +1,7 @@
 .chevysonic {
     display: flex;
     flex-direction: column;
-    /* margin-top: 8rem; */
-
-    margin: 4rem 12rem;
-
+    margin: 10rem 12rem 4rem 12rem;
     padding: 2rem 8rem;
     /* background: var(--color-footer); */
     background: var(--color-footer);
@@ -68,7 +65,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .chevysonic-container-gallery {
@@ -131,17 +128,30 @@
 
 @media screen and (max-width: 1200px) {
     .chevysonic{
-        margin: 1.5rem 4rem;
-        padding: 1.5rem 6rem;
+        margin: 8rem 6rem 2rem 6rem;
+        padding: 1.5rem 4rem;
+    }
+
+    .chevysonic-container-gallery {   
+        margin-top: -10rem;
     }
 }
 
 @media screen and (max-width: 1050px) {
+
+    .chevysonic{
+        margin: 8rem 6rem 2rem 6rem;
+        padding: 1.5rem 4rem;
+    }
+
+    .chevysonic-container-gallery {   
+        margin-top: -4rem;
+    }
+
     .chevysonic-heading {
         flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 0rem;
-        margin: 0;
+        align-items: center;
+        margin: 4rem auto -2rem auto;
     }
 
     .chevysonic-heading p {

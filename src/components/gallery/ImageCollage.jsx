@@ -14,7 +14,12 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function QuiltedImageList({setSelectedImg}) {
     return (
         <ImageList
-        sx={{ width: 300, height: '63%', marginLeft: 0.5 }}
+        // sx={{ width: 300, height: '63%', marginLeft: 0.5 }}
+        sx={{   width: { xl: '300px', lg: '300px', md: '93%', sm: '100%', xs: '100%'},
+                height: { xl: '63%', lg: '43%', md: '29%', sm: '50%', xs: '30%'}, 
+                marginLeft: { lg: '0.5rem', md: '0'},
+                marginTop: { lg: '0', md: '-8rem'},
+            }}
         variant="quilted"
         cols={4}
         rowHeight={121}
