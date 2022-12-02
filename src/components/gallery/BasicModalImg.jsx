@@ -16,7 +16,7 @@ const styleImg = {
     left: '50%',
     maxWidth: '73%',
     maxHeight: '75%',
-    transform: 'translate(-50%, -50%)',
+    transform: 'translate(-50%, -100%)',
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,

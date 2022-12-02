@@ -1,7 +1,9 @@
 .chevysonic {
     display: flex;
     flex-direction: column;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
+
+    margin: 4rem 12rem;
 
     padding: 2rem 8rem;
     /* background: var(--color-footer); */
@@ -127,7 +129,32 @@
     margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .chevysonic{
+        margin: 1.5rem 4rem;
+        padding: 1.5rem 6rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .chevysonic-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+        margin: 0;
+    }
+
+    .chevysonic-heading p {
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (max-width: 850px) {
+
+    .chevysonic{
+        margin: 2rem 6rem;
+    }
+
     .chevysonic-heading {
         flex-direction: column;
         align-items: flex-start;
@@ -140,6 +167,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .chevysonic{
+        width: 100%;
+    }
     /* Customizing feature component as per needs */
     .chevysonic-feature .chevysonic__features-container__feature {
         flex-direction: column;

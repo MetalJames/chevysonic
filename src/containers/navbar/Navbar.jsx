@@ -7,9 +7,9 @@ const Menu = () => (
     <>
         <p><a href='#home'>Home</a></p>
         <p><a href='#chevy'>Chevy Sonic 2018</a></p>
+        <p><a href='#specs'>Specs</a></p>
         <p><a href='#dimentions'>Dimentions</a></p>
-        <p><a href='#engine'>Engine</a></p>
-        <p><a href='#gallery'>Gallery?</a></p>
+        <p><a href='#gallery'>Gallery</a></p>
     </>
 )
 

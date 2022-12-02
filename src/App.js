@@ -7,9 +7,11 @@ import Footer from './containers/footer/Footer';
 const App = () => {
     return (
         <>
-            <Navbar />
-            <ChevySonic />
-            <Footer />
+            <div className='App'>
+                <Navbar />
+                <ChevySonic />
+                <Footer />
+            </div>
         </>
     )
 }

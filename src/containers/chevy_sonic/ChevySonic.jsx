@@ -17,7 +17,7 @@ const ChevySonic = () => {
     const [selectedImg, setSelectedImg] = useState(null);
 
     return (
-        <div className='chevysonic section__margin' id='home'>
+        <div className='chevysonic' id='home'>
         <img className='featureImage' src={featureimage} alt="sonic 2018lt" />
             <div className='chevysonic-heading'>
                 <h1>Chevrolet Sonic 2018 LT Hatchback</h1>
@@ -30,7 +30,7 @@ const ChevySonic = () => {
                 <div className='chevysonic__gallery_h1'><div />&nbsp;&nbsp;&nbsp;
                     <h1>GALLERY</h1>&nbsp;&nbsp;&nbsp;<div />
                 </div>
-                <div className='chevysonic-container-gallery'>
+                <div className='chevysonic-container-gallery' id='gallery'>
                     <img src={testImage} alt="test sonic" width='60%' height='auto'/>
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>

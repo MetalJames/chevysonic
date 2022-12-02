@@ -3,7 +3,7 @@ import './specs.css';
 
 const Feature = () => {
     return (
-        <div className='chevysonic__specs-container__feature'>
+        <div className='chevysonic__specs-container__feature' id='specs'>
             <div className='chevysonic__specs-container__feature-title .section__margin'><div />&nbsp;&nbsp;&nbsp;
                 <h1>SPECIFICATIONS</h1>&nbsp;&nbsp;&nbsp;<div />
             </div>
