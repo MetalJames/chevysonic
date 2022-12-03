@@ -141,6 +141,10 @@
         padding: 2rem;
     }
 
+    .chevy__navbar-sign {
+        display: none;
+    }
+
     .chevy__navbar-menu_container{
         top: 20px;
     }

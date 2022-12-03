@@ -33,8 +33,8 @@ const ChevySonic = () => {
                 </div>
                 <div className='chevysonic-container-gallery' id='gallery'>
                 <Box component='img' sx={{width: {xl: '60%', lg: '59%', md: '93%', sm: '92%', xs: '100%'}, height: 'auto', 
-                                            marginTop: {xl: '0', lg: '0', md: '0', sm: '2rem'},
-                                            marginBottom: {sm: '0rem', xs: '-12rem'}}} 
+                                            marginTop: {xl: '0', lg: '0', md: '-2rem', sm: '2rem', xs: '-5rem'},
+                                            marginBottom: {sm: '0rem', xs: '-12rem'},}} 
                     src={testImage} alt="test sonic"
                 />
                     <ImageCollage setSelectedImg={setSelectedImg}/>

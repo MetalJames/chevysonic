@@ -65,6 +65,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
     /* margin-top: 2rem; */
 }
 
@@ -127,6 +129,20 @@
     margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 1650px) {
+    .chevysonic-container-gallery {   
+        margin-top: -6rem;
+        margin-bottom: -4rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .chevysonic-container-gallery {   
+        margin-top: -10rem;
+        margin-bottom: -10rem;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .chevysonic{
         margin: 8rem 8rem 2rem 8rem;
@@ -135,17 +151,33 @@
 
     .chevysonic-container-gallery {   
         margin-top: -10rem;
+        margin-bottom: -4rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .chevysonic-container-gallery {   
+        margin-top: -10rem;
+        margin-bottom: -10rem;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    .chevysonic-container-gallery {   
+        margin-top: -10rem;
+        margin-bottom: -4rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
     .chevysonic{
         margin: 8rem 6rem 2rem 6rem;
         padding: 1.5rem 4rem;
     }
 
     .chevysonic-container-gallery {   
-        margin-top: -10rem;
+        margin-top: -4rem;
+        margin-bottom: 0;
     }
 }
 
@@ -222,6 +254,12 @@
         margin: 8rem 2rem 2rem 2rem;
         padding: 1.5rem 2rem;
     }
+
+    .chevysonic-container {
+        justify-content: center;
+        /* align-items: center; */
+    }
+
     /* Customizing feature component as per needs */
     .chevysonic-feature .chevysonic__features-container__feature {
         flex-direction: column;
@@ -233,7 +271,12 @@
     }
 
     .chevysonic__gallery_h1 {
-        padding-bottom: 0 ;
+        padding-bottom: 3rem ;
+    }
+
+    .chevysonic__gallery_h1 h1 {
+        font-size: 14px;
+        line-height: 22px;
     }
 
     .chevysonic-heading h1 {
@@ -243,8 +286,28 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
+    .chevysonic-heading{
+        margin-top: 2rem;
+    }
+    .chevysonic__gallery_h1 {
+        padding: 3rem 0 1rem 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
     /* Customizing feature component as per needs */
+/* 
+    .chevysonic-heading_h1{
+        margin: 2rem auto -2rem auto;
+    } */
+    /* .chevysonic img {
+        margin-bottom: -2rem;
+    } */
+    .chevysonic__gallery_h1 {
+        padding-bottom: 0 ;
+    }
+
     .chevysonic-container .chevysonic__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;

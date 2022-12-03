@@ -87,6 +87,16 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .chevysonic__specs-container_feature-text {
+        flex-direction: column;
+    }
+
+    .chevysonic__specs-container_feature-text li {
+        width: 360px;
+    }
+}
+
 @media screen and (max-width: 550px) {
 
     .chevysonic__specs-container_feature-text {
@@ -110,5 +120,15 @@
 
     .chevysonic__specs-container__feature {
         margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* .chevysonic__features-container_feature-text img {
+        width: 300px;
+    } */
+
+    .chevysonic__specs-container_feature-text li {
+        width: 280px;
     }
 }
