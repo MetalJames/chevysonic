@@ -68,7 +68,7 @@
 
     .chevysonic__engine-container_feature-text p {
         width: 350px;
-        margin: 0.5rem;
+        margin-right: 0.5rem;
     }
 }
 
@@ -79,14 +79,27 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .chevysonic__engine-container_feature-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
 @media screen and (max-width: 550px) {
+
+    .chevysonic__engine-container_feature-text {
+        flex-direction: column;
+    }
+
     .chevysonic__engine-container__feature-title h1 {
         font-size: 14px;
         line-height: 22px;
+        padding: .7rem;
     }
 
     .chevysonic__engine-container_feature-text p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 20px;
     }
 

@@ -60,7 +60,7 @@
 .chevy__navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
@@ -99,7 +99,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 0.5) 85%, rgba(27, 120, 222, 0.5) 100%);
+    background: radial-gradient(circle at 30% -100%, #042c54 30%, rgba(4, 44, 84, 0.5) 90%, rgba(27, 120, 222, 0.5) 100%);
     padding: 2rem;
     position: absolute;
     top: 40px;
@@ -139,9 +139,6 @@
 @media screen and (max-width: 550px) {
     .chevy__navbar {
         padding: 2rem;
-    }
-    .chevy__navbar-sign {
-        display: none;
     }
 
     .chevy__navbar-menu_container{

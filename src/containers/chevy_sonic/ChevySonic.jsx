@@ -32,10 +32,11 @@ const ChevySonic = () => {
                     <h1>GALLERY</h1>&nbsp;&nbsp;&nbsp;<div />
                 </div>
                 <div className='chevysonic-container-gallery' id='gallery'>
-                <Box component='img' sx={{width: {xl: '60%', lg: '59%', md: '93%', sm: '100%', xs: '100%'}, height: 'auto'}} 
+                <Box component='img' sx={{width: {xl: '60%', lg: '59%', md: '93%', sm: '92%', xs: '100%'}, height: 'auto', 
+                                            marginTop: {xl: '0', lg: '0', md: '0', sm: '2rem'},
+                                            marginBottom: {sm: '0rem', xs: '-12rem'}}} 
                     src={testImage} alt="test sonic"
                 />
-                    {/* <img src={testImage} alt="test sonic" width='60%' height='auto'/> */}
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>
                 { selectedImg &&  <BasicModalImg selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}

@@ -18,3 +18,15 @@
         margin: -2rem 0 2rem 0;
     }
 }
+
+@media screen and (max-width: 820px) {
+    .video-responsive {
+        margin: 0rem 0 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .video-responsive {
+        margin: -4rem 0 1.5rem 0;
+    }
+}
