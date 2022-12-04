@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='chevy__sonic__footer'>
             <div className='chevy__sonic__footer-copyright'>
-                <p>@2022 Chevrolet Sonic 2018lt. All rights reserved.</p>
+                <p>@2023 Chevrolet Sonic 2018lt. All rights reserved.</p>
             </div>
         </div>
     )

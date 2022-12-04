@@ -1,17 +1,11 @@
 import React, {useState} from 'react';
 import { Box } from '@mui/material';
 import './chevy_sonic.css';
-import Feature from '../../components/new_feature/Feature';
-import Engine from '../../components/engine/Engine';
-import Specs from '../../components/specs/Specs';
-import Dimentions from '../../components/dimentions/Dimentions';
+import { Dimentions, Engine, BasicModalImg, ImageCollage, Feature, Specs, YoutubeEmbed } from '../../components';
 import new_feature_img from '../../assets/new_feature_img.jpg';
 import engine from '../../assets/engine.jpeg';
 import featureimage from '../../assets/featureimage.jpg';
-import ImageCollage from '../../components/gallery/ImageCollage';
-import testImage from '../../assets/facing_gallery_sonic.png';
-import BasicModalImg from '../../components/gallery/BasicModalImg';
-import YoutubeEmbed from '../../components/video/YoutubeEmbed';
+import Sonic2018LT from '../../assets/facing_gallery_sonic.png';
 
 const ChevySonic = () => {
 
@@ -35,7 +29,7 @@ const ChevySonic = () => {
                 <Box component='img' sx={{width: {xl: '60%', lg: '59%', md: '93%', sm: '92%', xs: '100%'}, height: 'auto', 
                                             marginTop: {xl: '0', lg: '0', md: '-2rem', sm: '2rem', xs: '-5rem'},
                                             marginBottom: {sm: '0rem', xs: '-12rem'},}} 
-                    src={testImage} alt="test sonic"
+                    src={Sonic2018LT} alt="test sonic"
                 />
                     <ImageCollage setSelectedImg={setSelectedImg}/>
                 </div>
