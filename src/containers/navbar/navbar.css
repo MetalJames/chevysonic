@@ -9,22 +9,22 @@
     top: 0;
     width: 100%;
         /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%); 
+    background:-moz-linear-gradient(90deg, rgba(0, 28, 123, 1) 0%, rgba(10, 131, 147, 1) 50%, rgba(44, 0, 123, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+    background:-webkit-linear-gradient(90deg, rgba(0, 28, 123, 1) 0%, rgba(10, 131, 147, 1) 50%, rgba(44, 0, 123, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+    background:-o-linear-gradient(90deg, rgba(0, 28, 123, 1) 0%, rgba(10, 131, 147, 1) 50%, rgba(44, 0, 123, 1) 100%);
 
     /* ie 6-9 */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C007B', endColorstr='#001C7B', GradientType=0 );
 
     /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+    background:-ms-linear-gradient(90deg, rgba(0, 28, 123, 1) 0%, rgba(10, 131, 147, 1) 50%, rgba(44, 0, 123, 1) 100%);
 
     /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(0, 28, 123, 0.68) 0%, rgba(10, 131, 147, 0.59) 50%, rgba(44, 0, 123, 0.54) 100%);
+    background:linear-gradient(90deg, rgba(0, 28, 123, 1) 0%, rgba(10, 131, 147, 1) 50%, rgba(44, 0, 123, 1) 100%);
 
 }
 
@@ -99,10 +99,10 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: radial-gradient(circle at 30% -100%, #042c54 30%, rgba(4, 44, 84, 0.5) 90%, rgba(27, 120, 222, 0.5) 100%);
+    background: radial-gradient(circle at 30% -100%, #042c54 30%, rgba(4, 44, 84, 1) 90%, rgba(27, 120, 222, 1) 100%);
     padding: 2rem;
     position: absolute;
-    top: 40px;
+    top: 42px;
     right: 0;
     margin-top: 1rem;
     min-width: 210px;
@@ -138,15 +138,20 @@
 
 @media screen and (max-width: 550px) {
     .chevy__navbar {
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     .chevy__navbar-sign {
         display: none;
     }
 
+    .chevy__navbar-links_logo img {
+        width: 96px;
+        height: 24px;
+    }
+
     .chevy__navbar-menu_container{
-        top: 20px;
+        top: 27px;
     }
 
     .chevy__navbar-menu_container-links-sign {
