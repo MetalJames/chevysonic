@@ -44,7 +44,7 @@ export default function QuiltedImageList({setSelectedImg}) {
 
 const itemData = [
     {
-        img: "https://lh3.googleusercontent.com/ACM8yxxvA1JFiXHvYcG4WDpFq7USpCQW_z7MoCza3X6WQ9Z85Ek9xZnFbimfuTrAXyP4_2YI5rTdzOq6EJYZZ9mrnsHRsYjJX1U1s5cPEKnJZzg0VhNmxE2CHC0B2aY85CB1QJ9PJhE_AwNFB4D53MN6fENvcqLLfEpRA00We6VHA5CVmC4YUXWeW2qcL-Lbxd3owak6WWDYpTGmCzsJIMQE5zMwIp3zsydfJorq-K5ROLW0Vml8-eiImbAKD3PpRCJFYX3_RgdC2HBvG_JU-Uk0t1kreKmlVOGHAl1tRpfpK48kLgsVvM2nARRuHS3B61QKsghiwyCiGVfy93FPxGR0tnPmfB6N_HJ31BQo0plpgyJ6Epe5Y53AJNN5x_D9hceeHzA9EIfJkQw-HiPYpftc3N24ICu_TucDMcwC5KhSMImrthxqVb1GQrr_IHWOiphCQgJgwoa8D9mcpEENfThfhMzbh2oBF9GvTA7I6skf13tGL6LhhYZXhvqQOKluEteqC4yA7K_xgmMTPJTvoNIflbJ2dSa1Zl2Oub63q9v4_D3N4OzqExIwz0sCAkzbuR_kxA7lTg9c9YNmSYjjEZkrnV1dm3LkOh6SOUrAswMXlWdM8GliwcjitnD6HdIcbrULVAYSR4Rh28JCel-aYCFk916XmZ2AI7LHX98_qQlkI1jWvgNXqQV8nXM7b8Qg9BCfpHNQ_IznuBIJ5y8kaOT3vwrNY-dL41ZP4J3GaBr0THOJmGczpqQHb1KSG2mxAjMLzT0Ro7dcnI5lrNqRl7OKEJnQ05wgzInMcXGjcrddsCfN36CQ4K58Tv87S85p0kZuQcwkTpgoszatO1txCHh_CDKLpWCLVxe5E3Ey3LvK5cUVX5bdMe2HSp0kVS9IX9NAYJYRcpV5kaeTZW1uNIFoMdWrg7TUpMwEIbZ8Llz6=w1454-h969-no?authuser=0",
+        img: "http://chevysonic.volodymyrdc.ca/images/lightbox1.jpg",
         title: "Sonic 2018lt view from the hood",
         author: "Iuliia Polinovska",
         rows: 2,
