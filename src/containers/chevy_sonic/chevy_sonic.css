@@ -3,7 +3,6 @@
     flex-direction: column;
     margin: 10rem 11rem 4rem 10rem;
     padding: 2rem 8rem;
-    /* background: var(--color-footer); */
     background: var(--color-footer);
 
     /* ff 3.6+ */
@@ -36,10 +35,8 @@
 .chevysonic-heading {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
-    
     margin: 4rem 0 2rem;
 }
 
@@ -48,26 +45,13 @@
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-    /* max-width: 510px; */
     color: #fff;
 }
-
-/* .chevysonic-heading p {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-subtext);
-    cursor: pointer;
-} */
 
 .chevysonic-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
-    /* margin-top: 2rem; */
 }
 
 .chevysonic-container-gallery {
@@ -81,11 +65,9 @@
 }
 
 .chevysonic__gallery_h1 {
-    /* flex: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 180px; */
     width: 100%;
     color: #fff;
     font-family: var(--font-family);
@@ -94,7 +76,6 @@
     letter-spacing: -0.04em;
     color: #fff;
     padding: 2rem 0;
-    /* margin-right: 2rem; */
 }
 
 .chevysonic__gallery_h1 h1{
@@ -104,7 +85,6 @@
 .chevysonic__gallery_h1 div {
     width: 38px;
     height: 3px;
-    /* background: var(--gradient-bar); */
     background: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
@@ -114,9 +94,7 @@
 .chevysonic-container .chevysonic__features-container__feature, 
 .chevysonic-container .chevysonic__engine-container__feature,
 .chevysonic-container .chevysonic__specs-container__feature {
-    /* flex: 1; */
     margin: 1rem;
-    /* min-width: 210px; */
     width: 100%;
     display: unset;
     flex-direction: column;
@@ -255,9 +233,12 @@
         padding: 1.5rem 2rem;
     }
 
+    .featureImage {
+        height: 70px;
+    }
+
     .chevysonic-container {
         justify-content: center;
-        /* align-items: center; */
     }
 
     /* Customizing feature component as per needs */
@@ -297,13 +278,7 @@
 
 @media screen and (max-width: 400px) {
     /* Customizing feature component as per needs */
-/* 
-    .chevysonic-heading_h1{
-        margin: 2rem auto -2rem auto;
-    } */
-    /* .chevysonic img {
-        margin-bottom: -2rem;
-    } */
+
     .chevysonic__gallery_h1 {
         padding-bottom: 0 ;
     }
